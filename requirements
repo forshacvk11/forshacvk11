@@ -1,0 +1,5 @@
+langgraph>=1.0
+langchain-anthropic>=1.0
+requests
+beautifulsoup4
+openpyxl
