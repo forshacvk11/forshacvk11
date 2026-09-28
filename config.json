@@ -1,0 +1,22 @@
+{
+  "models": {
+    "screen": "claude-haiku-4-5-20251001",
+    "draft": "claude-sonnet-5"
+  },
+  "draft_threshold": 7,
+  "report_min_score": 4,
+  "tracker_path": "07_Tender_Pipeline_Tracker.xlsx",
+  "output_folder": "output",
+  "link_keywords": "consult|expression of interest|\\bEOI\\b|\\bREOI\\b|request for proposal|supervision|design review|feasibility|technical assistance",
+  "tender_pages": [
+    "https://www.etenders.com.ng/",
+    "https://www.naijabusiness.com.ng/tenders/"
+  ],
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 465,
+    "from": "you@example.com",
+    "to": "you@example.com"
+  }
+}
